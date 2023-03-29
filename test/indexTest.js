@@ -65,7 +65,7 @@ describe('superbowlWin(record)', function () {
   ]
 
   it('returns a year the Denver Broncos won the superbowl', function () {
-expect(superbowlWin(record)).to.equal('2015');
+    expect(superbowlWin(record)).to.equal('2015');
   });
 
   it('returns undefined if the record has no win objects', function() {
